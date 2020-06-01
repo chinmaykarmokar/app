@@ -57,7 +57,7 @@ class App extends React.Component{
 						<Row>
 							<Col sm={4}>
 								<Card style={{ width:"auto",marginTop:"10px",borderRadius:"20px",border:"none",boxShadow:"0px 0px 10px rgba(0,0,0,0.2)",textAlign:"center"}}>
-								  	<Card.Img variant="top" src={require("./desk.png")} style={{borderTopLeftRadius:"20px",borderTopRightRadius:"20px"}}/>
+								  	<Card.Img variant="top" src={require("./prof.png")} style={{borderTopLeftRadius:"20px",borderTopRightRadius:"20px"}}/>
 								  		<Card.Body>
 								    		<Card.Title style={{fontFamily:"Acme"}}>About</Card.Title>
 								    		<Card.Text>
@@ -77,9 +77,9 @@ class App extends React.Component{
 							<br/>
 
 							<Col sm={7}>
-								<h3 style={{fontFamily:"Acme",padding:"10px"}}>Self</h3>
+								<h3 style={{fontFamily:"Acme",padding:"30px"}}>Self</h3>
 									<hr/>
-								<h5 style={{fontFamily:"Ubuntu",padding:"10px"}}>
+								<h5 style={{fontFamily:"Ubuntu",padding:"30px"}}>
 									I am a first year electrical engineering student who has a lot of interest in programming and specifically in front-end development.
 									<br/>
 									<br/>
