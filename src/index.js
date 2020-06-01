@@ -23,6 +23,11 @@ import { FaReact } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 class App extends React.Component{
+
+	componentDidMount(){
+	    document.title = "Chinmay Karmokar"
+	}
+
 	render(){
 		return(
 			<div className="App" style={{backgroundColor:"#cce6ff"}}>
